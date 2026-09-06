@@ -78,11 +78,11 @@ function newKey() {
 function panelComponents() {
   return [
     new ActionRowBuilder().addComponents(
-      new ButtonBuilder().setCustomId('hydra_free').setLabel('Key grátis').setStyle(ButtonStyle.Success),
-      new ButtonBuilder().setCustomId('hydra_view').setLabel('Ver conteúdo').setStyle(ButtonStyle.Secondary)
+      new ButtonBuilder().setCustomId('hydra_free').setLabel('Key Free').setStyle(ButtonStyle.Success),
+      new ButtonBuilder().setCustomId('hydra_view').setLabel('View Content').setStyle(ButtonStyle.Secondary)
     ),
     new ActionRowBuilder().addComponents(
-      new ButtonBuilder().setCustomId('hydra_reset').setLabel('Resetar resgate').setStyle(ButtonStyle.Secondary)
+      new ButtonBuilder().setCustomId('hydra_reset').setLabel('Resetar Hwid').setStyle(ButtonStyle.Secondary)
     )
   ];
 }
